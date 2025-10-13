@@ -1,0 +1,58 @@
+Step 1: initialise the galaxy
+
+Tip: Go through each element in 2D array
+
+for (int row = 0; row < MAX_ROW; row++) {
+    for (int col = 0; col < MAX_COL; col++) {
+        array[row][col]  <- element
+    }
+}
+
+Step 2: Scan and store celestial bodies onto glaaxy map
+
+Firstly, the program should prompt for celestial bodies with 
+"Enter planets and nebulae:" and 
+
+
+take input for planets and nebula until q is pressed.
+
+
+Tip: if your problem requires doing something "until" condition is not met
+
+The loop stops: q is pressed
+
+Condition: q is not pressed
+while () {
+
+}
+
+
+valid input: if you are expecting 2 ints then a char
+
+
+This will be given as a pair of integers which denotes the row and column
+ (in that order). 
+ If the starting position is already occupied by a celestial body or is not a 
+ valid location in the array, the program should print out Invalid starting position!. 
+ Then the program should prompt with Re-enter starting position: and re-scan the position of the player, 
+ repeating until a valid position is scanned in.
+
+stopping: valid position
+condition: invalid position
+while () {
+
+}
+
+array: valid index is between 0..SIZE - 1
+
+occupied: if the element at row, col is not EMPTY
+
+Short-circuiting: when you needed to validate index for arrays, put them first in the condition
+
+Ctrl-D: check the return value of scanf (count the amount of %)
+
+
+Style
+
+Program Header
+Constant
